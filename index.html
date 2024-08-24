@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh-hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>切版直播班-W5-dashboard-ver2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/倉庫名稱/assets/main-DKEPnxie.js"></script>
+    <script type="module" crossorigin src="/倉庫名稱/assets/main-ve1vSmiV.js"></script>
+    <link rel="stylesheet" crossorigin href="/倉庫名稱/assets/main-Cfc59-ft.css">
+  </head>
+
+ 
+  <body class="flex relative">
+    <aside class="w-[296px] bg-[#F8F9FA] p-8 h-screen flex flex-col sticky top-0 left-0">
+       <nav>
+  <a href="#" class="logo"><h1 class="bg-[url(../../assets/images/logo-ANSWER.svg)] w-full h-10 bg-no-repeat mb-6">Answer</h1></a>
+  <ul class="nav-links">
+    <li class="py-3 relative"><a href="#" class="leading-6 stretched-link"><span class="material-icons align-bottom mr-4">assessment</span>Dashboard</a></li>
+    <li class="py-3"><a href="#" class="leading-6"><span class="material-icons align-bottom mr-4">question_answer</span>Question</a></li>
+    <li class="py-3 active"><a href="#" class=" leading-6"><span class="material-icons align-bottom mr-4">assignment</span>Assignment</a></li>
+    <li class="py-3"><a href="#" class="leading-6"><span class="material-icons align-bottom mr-4">video_library</span>Course</a></li>
+    <li class="py-3"><a href="#" class="leading-6"><span class="material-icons align-bottom mr-4">group</span>Admin</a></li>
+    <li class="py-3"><a href="#" class="leading-6"><span class="material-icons align-bottom mr-4">settings</span>Setting</a></li>
+  </ul>
+</nav>
+<div class="profile mt-auto flex items-center">
+  <div class="mr-4 w-[40px] h-[40px] rounded-full bg-[url(../../assets/images/andychen.jpeg)] bg-cover"></div>
+  <div class="profile-details">
+    <p>Andy Chen</p>
+    <a href="mailto:andy0401@mail.com" class="text-sm text-secondary">andy0401@mail.com</a>
+  </div>
+</div>
+       
+    </aside>
+    
+    <main class="flex-grow">
+      <header class="flex items-center p-8">
+        <h2 class="text-2xl mr-[50px] font-bold">Assignment</h2>
+
+        <div class="relative inline-block text-left dropdown">
+          <div>
+            <button id="dropdownButton" type="button" class="inline-flex w-full justify-center gap-x-[9px] rounded-md bg-white font-bold text-gray-900 shadow-sm hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
+              All Courses
+              <span class="material-icons text-primary">expand_more</span>
+            </button>
+          </div>
+          <div id="dropdownMenu" class="hidden" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+            <div class="py-1" role="none">
+              <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Javascript</a>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Front End Development</a>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">UI/UX Design</a>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="side-icon ml-auto">
+          <a href=""><span class="material-icons">search</span></a>
+          <a href=""><span class="material-icons ml-6">notifications_active</span></a>
+        </div>
+      </header>
+
+      <section class="flex px-8 py-3 gap-x-4 flex-col lg:flex-row">
+        
+        <div class="min-w-80">
+          <button type="button" class="inline-flex w-full mb-[6px] gap-x-[9px] rounded-md bg-white font-bold text-gray-900 hover:bg-gray-50 leading-6" id="menu-button" aria-expanded="true" aria-haspopup="true">
+            All (4)
+            <span class="material-icons text-primary">expand_more</span>
+          </button>
+
+          <ul class="mail border border-border-line rounded-sm">
+            <li class="flex justify-between p-3 border-b border-border-line bg-light-bg">
+              <div class="mail-content">
+                <h3 class="text-xs mb-1">Chapter Assignment 2</h3>
+                <h4>Please check this file…</h4>
+              </div>
+              <div class="mail-info">
+                <p class="text-xs mb-2">4 hrs ago</p>
+                <p class="text-xs text-secondary">Emily Wang</p>
+              </div>
+            </li>
+            <li class="flex justify-between p-3 border-b border-border-line">
+              <div class="mail-content">
+                <h3 class="text-xs mb-1">Chapter Assignment 1</h3>
+                <h4>My Homework</h4>
+              </div>
+              <div class="mail-info">
+                <p class="text-xs mb-2">12 hrs ago</p>
+                <p class="text-xs text-secondary">David Xu</p>
+              </div>
+            </li>
+            <li class="flex justify-between p-3 border-b border-border-line">
+              <div class="mail-content">
+                <h3 class="text-xs mb-1">Final Assignment</h3>
+                <h4>Have a problem with this…</h4>
+              </div>
+              <div class="mail-info">
+                <p class="text-xs mb-2">18 hrs ago</p>
+                <p class="text-xs text-secondary">Tony Wei</p>
+              </div>
+            </li>
+            <li class="flex justify-between p-3 border-b border-border-line">
+              <div class="mail-content">
+                <h3 class="text-xs mb-1">Final Assignment</h3>
+                <h4>Did I do it right?</h4>
+              </div>
+              <div class="mail-info">
+                <p class="text-xs mb-2">19 hrs ago</p>
+                <p class="text-xs text-secondary">Christina Lin</p>
+              </div>
+            </li>
+            
+            
+            
+          </ul>
+        </div>
+
+        <section class="details flex-grow">
+          <p class="text-xs text-secondary text-right mb-2 leading-6">2 comments</p>
+          <div class="card border rounded-sm border-border-line mb-4">
+
+            <div class="flex px-4 py-3 border-b border-border-line bg-light-bg">
+              <div class="subject flex-grow">
+                <h3 class="text-xs">
+                  Chapter Assignment 2 / HTML&CSS
+                </h3>
+                <h4>Please check this file for me, thanks!</h4>
+              </div>
+              <button role="button"><span class="material-icons ">more_vert</span></button>
+            </div>
+
+            <ul class="messages">
+              <li class="flex px-4 pt-4 items-start">
+                <div class="mr-4 min-w-10 min-h-10 rounded-full bg-[url(../../assets/images/emilywang.jpeg)] bg-cover"></div>
+                <div class="messages-content border-b border-border-line pb-[16.5px]">
+                  <h5 class="name">Emily Wang</h5>
+                  <p class="time text-xs text-secondary">10:38 AM (4 hours ago)</p>
+                  <p class="content text-sm leading-[21px] my-4">
+                    Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="text-primary font-mono">div</span> is bigger than the height of the <span class="text-primary font-mono">img</span> ? There is a gap below the image, but it doesn't seems to be a padding/margin.<br>What is the gap or extra space below image?
+                  </p>
+                  <button role="button" class="border border-border-line rounded-sm bg-light-bg py-2 px-3"><span class="material-icons mr-2 align-bottom">attach_file</span>HW-2-David.zip</button>
+                </div>
+              </li>
+              <li class="flex p-4 items-start">
+                <div class="mr-4 min-w-10 min-h-10 rounded-full bg-[url(../../assets/images/andychen.jpeg)] bg-cover"></div>
+                <div class="messages-content">
+                  <div class="flex">
+                    <div class="flex-grow">
+                      <h5 class="name">Andy Chen (You)</h5>
+                       <p class="time text-xs text-secondary">13:24 AM (1 hours ago)</p>
+                    </div>
+                    <div class="action">
+                      <button role="button"><span class="material-icons">star_border</span></button>
+                      <button role="button" class="ml-6"><span class="material-icons">edit</span></button>
+                    </div>
+                  </div>
+                  
+                  <p class="content text-sm leading-[21px] my-4">
+                    Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. You can: 　
+                    
+                    <ul class="list-disc ml-4 text-sm">
+                      <li>
+                        adjust the <span class="text-primary font-mono">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="text-primary font-mono">middle</span> ) or
+                      </li>
+                      <li>change the <span class="text-primary font-mono">display</span> so it isn't inline.</li>
+                    </ul>
+                  </p>
+                </div>
+              </li>
+              
+            </ul>
+
+          </div>
+
+          <div class="button-control flex">
+              <button type="button"><span class="material-icons">chevron_left</span></button>
+              <button type="button" class="ml-[23px]"><span class="material-icons">chevron_right</span></button>
+              <button type="button" class="py-2 px-8 ml-auto border rounded-sm border-primary text-primary hover:bg-primary hover:text-white">Mark as read</button>
+              <button type="button" class="py-2 px-8 ml-4 border rounded-sm border-primary bg-primary text-white hover:bg-[#136b42]">Reply</button>
+            
+          </div>
+
+        
+        </section>
+
+      </section>
+      
+    </main>
+  </body>
+</html>
